@@ -75,7 +75,7 @@ calico pods come online, the nodes should transition to a ```Ready``` status
 
 ## Step 6 (Optional). Destroy the CAPK guest cluster
 
-```./kubevirtci destroy-cluster
+```./kubevirtci destroy-cluster```
 
 # Common Utility/Debug Functions
 
@@ -111,7 +111,7 @@ Once in the infra node, execute `sudo su -` to gain root access.
 
 This will give you ssh access to a guest cluster node.
 
-```./kubevirtci ssh-tenant <vmi name> <vmi namespace>
+```./kubevirtci ssh-tenant <vmi name> <vmi namespace>```
 
 Once in the guest cluster execute the following to get a bash terminal and
 get root access.
